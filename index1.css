@@ -1,0 +1,141 @@
+.reg-page{
+    min-height: 90vh;
+    width: 100%;
+    background-image:url("covid-19-vaccine.jpg");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.form-box{
+    min-height: 90vh;
+    position: relative;
+    background: rgba(24, 2, 2, 0.3);
+    overflow: hidden;
+    border-radius: 2px solid pink;
+}
+.button-box{
+    width: 300px;
+    margin-left: 100px;
+}
+#btn{
+    text-align: center;
+}
+.toggle-btn{
+    background-color: rgb(48, 21, 21);
+    font-size: 25px;
+    color: wheat;
+    background: transparent;
+    border-color:orange ;
+
+}
+.input-group-login{
+    top: 10px;
+    position: relative;
+    width: 500px;
+    padding:1% 3% 2% 3%;
+    color: white;
+    box-shadow: 2px 2px  15px gray;
+    transition: .5s;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 40px;
+
+}
+label{
+    color: orange;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid white;
+    outline:none ;
+    background: transparent;
+    font-size: 15px;
+    color: whitesmoke;
+   
+}
+#login{
+    left: 250px;
+}
+#login input{
+    color: white;
+    font-size: 25;
+}
+#submit1{
+    text-align: center;
+    background-color: rgb(48, 21, 21);
+    margin-left: 50%;
+    font-size: 20px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: orange;
+    width: 100px;
+    
+}
+#submit2{
+    text-align: center;
+    background-color: rgb(48, 21, 21);
+    font-size: 20px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: orange;
+    width: 100px;
+    
+    
+
+}
+table,th{
+    border: 1px solid blue;
+    
+}
+
+#myTable{
+   
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    margin: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    box-shadow: 0 20px 20px #ABB289;
+    overflow: hidden;
+    border-radius: 8px 8px 6px 6px;
+}
+
+.col{
+    font-weight: bolder;
+    color:orange;
+    background-image:linear-gradient(#00A4EF,#000081);
+
+    
+}
+#table th,.table1 td{
+    padding: 12px 15px;
+    
+    background-color: white;
+
+}
+.myTable1{
+    font-size: 20px;
+}
+ #myTable tbody tr:nth-child(even){
+    background-color: #eee;
+
+}
+#myTable tbody tr:nth-child(odd){
+    background-color: #fff;
+
+}
+.edit{
+    background-image:linear-gradient(#00A4EF,#000081);
+    color: white;
+}
+.dlt{
+    background-image:linear-gradient(#00A4EF,#000081);
+    color: white;
+}
